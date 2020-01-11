@@ -1,0 +1,62 @@
+body {
+    background-color: #af460f;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+form {
+    padding: 10px;
+}
+
+form div {
+    padding-bottom: 10px;
+}
+
+.container {
+    background-color: #fe8761;
+    border: black solid;
+    border-radius: 5%;
+    position: absolute;
+    margin: 10% 40%;
+    padding: 10px;
+}
+
+.container label {
+    display: block;
+}
+.container h1 {
+    text-align: center;
+    font-weight: 700;
+}
+.input-area {
+    border-radius: 5px;
+    border: beige solid 1px;
+    padding-left: 5px;
+    background-color: #fe8761;
+}
+.input-area:focus {
+    background-color: #f6eec9;
+}
+
+.btn-delete {
+    border-radius: 100%;
+    margin-left: 10px;
+    background-color: #fed39f;
+}
+
+.btn {
+    display: inline-block;
+    margin: 15px 15px 5px;
+    border-radius: 15px;
+    width: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    background-color: #fed39f;
+}
+
+.warning {
+    color: red;
+    position: relative;
+    bottom: 18px;
+    margin-bottom: 0;
+}
